@@ -1,4 +1,4 @@
-# Análisis y predicción del rendimiento de la producción mundial de arroz
+# 🌾Análisis y predicción del rendimiento de la producción mundial de arroz
 
 Este proyecto analiza datos globales de **producción de arroz por país**, con el objetivo de **comprender los factores que influyen en el rendimiento agrícola** y construir modelos de **machine learning** para predecir el rendimiento del arroz (kg/hectárea).
 
@@ -6,7 +6,7 @@ El trabajo integra **análisis exploratorio profundo (EDA)**, **limpieza avanzad
 
 ---
 
-## 🌾 Contexto del problema
+## 🗺️Contexto del problema
 
 El arroz es uno de los cultivos más importantes del mundo y un pilar clave de la seguridad alimentaria.  
 Analizar su producción permite:
@@ -18,7 +18,7 @@ Analizar su producción permite:
 
 ---
 
-## 🎯 Objetivos
+## 🎯Objetivos
 
 - Analizar estadísticamente la producción mundial de arroz
 - Explorar relaciones entre producción, superficie cultivada y rendimiento
@@ -30,7 +30,7 @@ Analizar su producción permite:
 
 ---
 
-## 📊 Dataset
+## 📊Dataset
 
 **Fuente:** Rice Production by Country  
 El dataset contiene información por país sobre producción y consumo de arroz.
@@ -45,7 +45,7 @@ El dataset contiene información por país sobre producción y consumo de arroz.
 
 ---
 
-## 🧹 Limpieza y preparación de datos
+## 🧹Limpieza y preparación de datos
 
 - Reemplazo de valores inconsistentes (`NaN`, `N/A`, `?`)
 - Conversión de unidades con sufijos (`K`, `M`)
@@ -60,7 +60,7 @@ El dataset contiene información por país sobre producción y consumo de arroz.
 
 ---
 
-## 🔍 Análisis exploratorio (EDA)
+## 🔍Análisis exploratorio (EDA)
 
 ### Análisis univariante
 - Boxplots para detección de outliers
@@ -74,7 +74,7 @@ El dataset contiene información por país sobre producción y consumo de arroz.
 
 ---
 
-## 🧠 Feature engineering
+## 🧠Feature engineering
 
 Se crearon variables derivadas para capturar mejor la dinámica productiva:
 
@@ -89,7 +89,7 @@ Estas variables mejoran la capacidad explicativa de los modelos.
 
 ---
 
-## 🎯 Selección de características
+## 🎯Selección de características
 
 - Método de filtrado **F-regression**
 - Evaluación del impacto estadístico de cada variable
@@ -98,7 +98,7 @@ Estas variables mejoran la capacidad explicativa de los modelos.
 
 ---
 
-## 🤖 Modelado predictivo
+## 🤖Modelado predictivo
 
 ### Tipo de problema
 - **Regresión supervisada**
@@ -122,7 +122,7 @@ Estas variables mejoran la capacidad explicativa de los modelos.
 
 ---
 
-## 📈 Resultados
+## 📈Resultados
 
 - Los modelos basados en **ensemble y boosting** muestran mejor desempeño
 - XGBoost captura relaciones no lineales entre variables agrícolas
@@ -134,7 +134,7 @@ Estas variables mejoran la capacidad explicativa de los modelos.
 
 ---
 
-## 📊 Visualizaciones
+## 📊Visualizaciones
 
 - Boxplots antes y después del tratamiento de outliers
 - Mapas de calor de correlación
@@ -143,18 +143,18 @@ Estas variables mejoran la capacidad explicativa de los modelos.
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 🛠️Tecnologías utilizadas
 
 - **Python**
 - **pandas, numpy**
-- **matplotlib, seaborn**
+- **matplotlib, `seaborn**`
 - **scikit-learn**
 - **XGBoost**
 - **scipy, statsmodels**
 
 ---
 
-## 📂 Estructura del repositorio
+## 📂Estructura del repositorio
 
 ├── rice_production_by_country.csv
 ├── produccion_arroz.py
@@ -163,7 +163,7 @@ Estas variables mejoran la capacidad explicativa de los modelos.
 
 ---
 
-## 🚀 Próximos pasos
+## 🚀Próximos pasos
 
 - Optimización de hiperparámetros (Grid / Random Search)
 - Interpretabilidad del modelo (SHAP)
@@ -173,7 +173,7 @@ Estas variables mejoran la capacidad explicativa de los modelos.
 
 ---
 
-## 👤 Autor
+## 👤Autor
 
 **Flavia Hepp**  
 Data Scientist en formación  
