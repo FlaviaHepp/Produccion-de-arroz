@@ -1,6 +1,3 @@
-# Produccion-de-arroz
-Análisis y predicción del rendimiento de la producción mundial de arroz
-
 # Análisis y predicción del rendimiento de la producción mundial de arroz
 
 Este proyecto analiza datos globales de **producción de arroz por país**, con el objetivo de **comprender los factores que influyen en el rendimiento agrícola** y construir modelos de **machine learning** para predecir el rendimiento del arroz (kg/hectárea).
